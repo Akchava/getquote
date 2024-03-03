@@ -1,5 +1,7 @@
-package com.unitycloudonline.snapshot.quote;
+package com.unitycloudonline.snapshot.controller;
 
+import com.unitycloudonline.snapshot.service.Generatequote;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -7,9 +9,17 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("api/getquote")
 public class getquote {
+
+
+    public final Generatequote generatequote;
+
+    @Autowired
+    public getquote(Generatequote generatequote) {
+        this.generatequote = generatequote;
+    }
     @GetMapping
     public String getquote() {
-        return ("test");
+        return generatequote.newQuote();
     }
 
 }
