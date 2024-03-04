@@ -9,8 +9,8 @@
     <description>UnityApi</description>
     <properties>
         <java.version>11</java.version>
-        <springboot.version>3.2.0</springboot.version>
-        <springboot.maven.version>3.2.0.RELEASE</springboot.maven.version>
+        <springboot.version>2.5.0</springboot.version>
+        <springboot.maven.version>2.5.0.RELEASE</springboot.maven.version>
     </properties>
     <dependencies>
         <dependency>
