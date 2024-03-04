@@ -8,7 +8,7 @@
     <name>UnityApi</name>
     <description>UnityApi</description>
     <properties>
-        <java.version>17</java.version>
+        <java.version>11</java.version>
         <springboot.version>3.2.0</springboot.version>
         <springboot.maven.version>3.2.0.RELEASE</springboot.maven.version>
     </properties>
@@ -38,6 +38,10 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.8.1</version>
+                <configuration>
+                    <source>${java.version}</source>
+                    <target>${java.version}</target>
+                </configuration>
             </plugin>
         </plugins>
     </build>
