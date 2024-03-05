@@ -6,7 +6,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.unitycloudonline</groupId>
-    <artifactId>snapshot</artifactId>
+    <artifactId>uc-api-quote</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>UnityApi</name>
     <description>UnityApi</description>
