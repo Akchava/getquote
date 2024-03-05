@@ -1,6 +1,6 @@
-package com.unitycloudonline.snapshot.controller;
+package com.unitycloudonline.genesis.controller;
 
-import com.unitycloudonline.snapshot.service.Generatequote;
+import com.unitycloudonline.genesis.service.Generatequote;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

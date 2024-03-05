@@ -1,4 +1,4 @@
-package com.unitycloudonline.snapshot;
+package com.unitycloudonline.genesis;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

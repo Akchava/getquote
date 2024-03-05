@@ -1,4 +1,4 @@
-package com.unitycloudonline.snapshot.service;
+package com.unitycloudonline.genesis.service;
 
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.stereotype.Service;

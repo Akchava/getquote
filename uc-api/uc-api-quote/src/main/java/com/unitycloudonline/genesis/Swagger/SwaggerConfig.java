@@ -1,4 +1,4 @@
-package com.unitycloudonline.snapshot.Swagger;
+package com.unitycloudonline.genesis.Swagger;
 
 
 import org.springframework.context.annotation.Bean;
