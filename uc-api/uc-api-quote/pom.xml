@@ -15,29 +15,17 @@
         <maven.compiler.target>1.8</maven.compiler.target>
         <springboot.maven.version>2.2.6.RELEASE</springboot.maven.version>
         <server.port>8080</server.port>
-        <io.springfox.version>2.9.2</io.springfox.version> <!-- Align with Spring Boot 1.5.0.RELEASE -->
     </properties>
 
-
     <!--Springfox -->
-
     <dependencies>
         <dependency>
-            <groupId>io.springfox</groupId>
-            <artifactId>springfox-swagger2</artifactId>
-            <version>${io.springfox.version}</version>
+            <groupId>org.springdoc</groupId>
+            <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
+            <version>2.3.0</version>
         </dependency>
 
-
-        <dependency>
-            <groupId>io.springfox</groupId>
-            <artifactId>springfox-swagger-ui</artifactId>
-            <version>${io.springfox.version}</version>
-        </dependency>
-
-
-    <!--Spring Boot -->
-
+        <!--Spring Boot -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
@@ -61,9 +49,7 @@
                 <executions>
                     <execution>
                         <goals>
-                            <goal>
-                                repackage
-                            </goal>
+                            <goal>repackage</goal>
                         </goals>
                     </execution>
                 </executions>
