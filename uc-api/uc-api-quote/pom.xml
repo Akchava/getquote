@@ -22,6 +22,11 @@
     <!--Springfox -->
 
     <dependencies>
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger2</artifactId>
+            <version>${io.springfox.version}</version>
+        </dependency>
 
 
         <dependency>
